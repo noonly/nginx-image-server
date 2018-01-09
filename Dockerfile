@@ -76,7 +76,8 @@ RUN mkdir -p /etc/nginx && \
     mkdir -p /etc/nginx/conf.d && \
     mkdir -p /var/www/nginx/cache && \
     mkdir -p /var/www/nginx/images && \
-    mkdir -p /var/www/nginx/tmp
+    mkdir -p /var/www/nginx/tmp && \
+    mkdir -p /var/www/nginx/images/avatar
 
 # Add config files
 COPY files/nginx.conf   /etc/nginx/nginx.conf
